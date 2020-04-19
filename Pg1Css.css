@@ -1,0 +1,85 @@
+body,html{
+    height:vh;
+    width:vw;
+    background-color:#152535;
+    margin:0;
+    padding:0;
+    color:white;
+}
+
+li{
+    font-family: Poppins;
+    font-size:
+    color:white;
+}
+
+.divofheading{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.heading{
+    font-family: 'Josefin Sans';
+    font-weight: bolder;
+    font-stretch: ultra-expanded;
+
+}
+
+a{
+    color:white;
+}
+a:active{
+    color: whitesmoke;
+}
+li a:hover{
+    text-decoration: overline;
+    color:rgb(121, 119, 117);
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    background-color:transparent;
+    color:white;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: white;
+}
+
+.poster{
+    margin:100px 0 0 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.mainimage{
+    width:62vw;
+}
+
+#description button{
+    font-family: 'Josefin Sans';
+    margin-left: 10px;
+}
+
+#description {
+    font-family: 'Josefin Sans';
+}
+.sideimage{
+    width:27vw;
+    border-radius: 5px;
+}
+
+.forspacing{
+    margin-left: 20px;
+}
+
+
