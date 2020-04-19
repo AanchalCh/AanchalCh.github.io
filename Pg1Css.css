@@ -90,3 +90,7 @@ li a:hover{
     background-color: transparent;
     border: none;
 }
+
+.rating{
+    color:yellow;
+}
