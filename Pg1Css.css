@@ -65,12 +65,12 @@ li a:hover{
     width:62vw;
 }
 
-#description button{
+.description button{
     font-family: 'Josefin Sans';
     margin-left: 10px;
 }
 
-#description {
+.description {
     font-family: 'Josefin Sans';
 }
 .sideimage{
@@ -79,7 +79,14 @@ li a:hover{
 }
 
 .forspacing{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
+.fanfav{
+    margin:10px 0 0 50px;
+}
 
+.correct{
+    background-color: transparent;
+    border: none;
+}
