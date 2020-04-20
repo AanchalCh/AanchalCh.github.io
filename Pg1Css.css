@@ -46,23 +46,13 @@ li a:hover{
 }
 
 .poster{
-    margin:100px 50px 0 50px;
+    margin:90px 50px 0 50px;
     display: flex;
     align-items: flex-end;
 }
 
-.section1{
-    margin:50px 50px 0 50px;
-    font-weight: lighter;
-    font-size: small;
-}
-
 .mainimage{
     width:62vw;
-}
-
-.description button{
-    margin-left: 15px;
 }
 
 .sideimage{
@@ -72,18 +62,30 @@ li a:hover{
 
 .forspacing{
     margin-left: 30px;
+    
+}
+
+.description{
+    color:rgb(185, 179, 179);
+}
+
+.description button{
+    margin-left: 15px;
+    color:rgb(185, 179, 179);
+}
+
+.rating{
+    color:rgb(168, 168, 33);
+}
+
+.section1{
+    margin:50px 50px 0 50px;
+    font-weight: lighter;
+    font-size: small;
 }
 
 .togivemargin{
     margin-top: 40px;
-}
-
-.fu{
-    margin-top: 20px;
-    margin-bottom: 0px;
-}
-.fanfav{
-    margin:10px 0 0 50px;
 }
 
 .correct{
@@ -91,10 +93,12 @@ li a:hover{
     border: none;
 }
 
-.rating{
-    color:yellow;
+.correct:hover{
+    cursor: pointer;
+    position: relative;
+    transition:0.3s;
+    -webkit-box-shadow: -1px 9px 40px -12px #6c7175;
+    -moz-box-shadow: -1px 9px 40px -12px #6c7175;
+    box-shadow: -1px 9px 40px -12px #6c7175;
 }
 
-.call-to-action , .text-right{
-    text-align: center;
-}
