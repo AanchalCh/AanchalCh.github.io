@@ -17,6 +17,10 @@ body,html{
 a{
     color:white;
 }
+
+table a{
+    color:#007bff;
+}
 li a:hover{
     color:rgb(121, 119, 117);
 }
@@ -45,17 +49,13 @@ li a:hover{
     align-items: flex-end;
 }
 
-.forspacing{
-    margin-left: 30px;
-    
-}
 
 .description{
     color:rgb(185, 179, 179);
 }
 
 .description button{
-    margin-left: 15px;
+    margin-left: 20px;
     color:rgb(185, 179, 179);
 }
 
