@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="Pg1Css.css">
+        <link rel="stylesheet" href="responsive.css">
         <link rel="icon" type="image/png" href="https://mir-s3-cdn-cf.behance.net/project_modules/disp/f4d97295476953.5e9bf1d8e4907.png">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap" rel="stylesheet">
@@ -13,9 +14,13 @@
     </head>
     <body>
         <div class="container-fluid">
-            <nav class="navbar fixed-top" style="background-color:#203345">
+            <nav class="navbar navbar-expand-lg fixed-top" style="background-color:#203345">
                 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_632/f4d97295476953.5e9bf1d8e4907.png" width="130" height="40" >
-                    <ul class="nav justify-content-end">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="nav ">
                       <li class="nav-item active">
                         <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
                       </li>
@@ -42,8 +47,9 @@
                             <i class="far fa-user"></i> </a>
                       </li>
                     </ul>
-            </nav>
-            <div class="container-fluid">
+                </nav>
+              </div>
+              <section class="home">
                 <div class="poster">
                     <div class="forleftimage">
                     <img src="https://images-na.ssl-images-amazon.com/images/I/61boFr6SYZL._SY550_.jpg" class="sideimage">
@@ -65,8 +71,9 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="fanfav description">
+                </section>
+              <section class="home">
+                <div class="section1">
                   <h2>Fan Favorites</h2>
                     <div class="card-deck">
                         <div class="card correct">
@@ -101,13 +108,14 @@
                                 <p class="card-text"><small class="text-muted">2hr 2min | 2019 | <span class="rating"><i class="fas fa-star rating"></i></span> 9.2 </small></p>
                             </div>
                          </div>
-                     </div>
-                  </div>
-                <footer class="page-footer " style="background-color:#203345">
-                  <p class="description text-center">See More </p>
-                </footer>
+                    </div>
                 <footer class="page-footer" style="background-color:#203345">
-                  <ul class="list-unstyled list-inline text-center">
+                  <h4 class="text-center">See More </h4>
+                </footer>
+                </div>
+              </section>
+                <footer class="page-footer togivemargin" style="background-color:#203345">
+                  <ul class="list-unstyled list-inline text-center ">
                     <li class="list-inline-item">
                       <a class="btn-floating btn-fb mx-1">
                         <i class="fab fa-facebook-f"> </i>
@@ -129,7 +137,7 @@
                       </a>
                     </li>
                   </ul>
-                  <nav class="navbar justify-content-center fstyling">
+                  <nav class="navbar justify-content-center">
                     <ul class="nav ">
                       <li class="nav-item active">
                         <a class="nav-link" href="aboutus.html">About Flux</a>
@@ -145,8 +153,8 @@
                       </li>
                     </ul>
                   </nav>
-                  <nav class="navbar justify-content-center fstyling">
-                    <ul class="nav ">
+                  <nav class="navbar justify-content-center ">
+                    <ul class="nav">
                       <li class="nav-item active">
                         <a class="nav-link" href="tandc.html">Terms and Policies</a>
                       </li>
@@ -158,8 +166,8 @@
                         </li>
                     </ul>
                   </nav>
-                  <p class="description text-center fstyling"> <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_632/f4d97295476953.5e9bf1d8e4907.png" width="90" height="25" ></p>
-                  <p class="description text-center fstyling"><small class="text-muted">&copy 1990-2020 Flux.com , inc.</p>
+                  <p class="text-center "> <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_632/f4d97295476953.5e9bf1d8e4907.png" width="90" height="25" ></p>
+                  <p class="text-center"><small class="text-muted">&copy 1990-2020 Flux.com , inc.</p>
                 </footer>
         </div>
     </body>

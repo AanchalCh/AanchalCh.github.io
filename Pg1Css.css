@@ -5,12 +5,7 @@ body,html{
     margin:0;
     padding:0;
     color:white;
-}
-
-li{
-    font-family: Poppins;
-    font-size:
-    color:white;
+    font-family: 'Poppins';
 }
 
 .divofheading{
@@ -20,20 +15,15 @@ li{
 }
 
 .heading{
-    font-family: 'Josefin Sans';
     font-weight: bolder;
     font-stretch: ultra-expanded;
-
+    font-family: 'Josefin Sans';
 }
 
 a{
     color:white;
 }
-a:active{
-    color: whitesmoke;
-}
 li a:hover{
-    text-decoration: overline;
     color:rgb(121, 119, 117);
 }
 
@@ -56,9 +46,15 @@ li a:hover{
 }
 
 .poster{
-    margin:100px 0 0 50px;
+    margin:100px 50px 0 50px;
     display: flex;
     align-items: flex-end;
+}
+
+.section1{
+    margin:50px 50px 0 50px;
+    font-weight: lighter;
+    font-size: small;
 }
 
 .mainimage{
@@ -66,13 +62,9 @@ li a:hover{
 }
 
 .description button{
-    font-family: 'Josefin Sans';
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
-.description {
-    font-family: 'Josefin Sans';
-}
 .sideimage{
     width:27vw;
     border-radius: 5px;
@@ -82,6 +74,14 @@ li a:hover{
     margin-left: 30px;
 }
 
+.togivemargin{
+    margin-top: 40px;
+}
+
+.fu{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 .fanfav{
     margin:10px 0 0 50px;
 }
@@ -95,6 +95,6 @@ li a:hover{
     color:yellow;
 }
 
-.fstyling{
-    color:#203345;
+.call-to-action , .text-right{
+    text-align: center;
 }
