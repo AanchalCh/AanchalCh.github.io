@@ -8,12 +8,6 @@ body,html{
     font-family: 'Poppins';
 }
 
-.divofheading{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
 .heading{
     font-weight: bolder;
     font-stretch: ultra-expanded;
@@ -28,10 +22,17 @@ body,html{
 }
 
 a{
-    color:white;
+    color:rgb(185, 179, 179);
 }
-li a:hover{
-    color:rgb(121, 119, 117);
+
+table a{
+    color:#007bff; /*natural color of link*/
+}
+.topnav li a:hover{
+    color:white;
+    border-top-color: white;
+    border-top-style: solid;
+    border-top-width: medium;
 }
 
 .has-search .form-control {
@@ -58,26 +59,13 @@ li a:hover{
     align-items: flex-end;
 }
 
-.mainimage{
-    width:62vw;
-}
-
-.sideimage{
-    width:27vw;
-    border-radius: 5px;
-}
-
-.forspacing{
-    margin-left: 30px;
-    
-}
 
 .description{
     color:rgb(185, 179, 179);
 }
 
-.description button, .description a{
-    margin-left: 15px;
+.description button{
+    margin-left: 20px;
     color:rgb(185, 179, 179);
 }
 
@@ -156,39 +144,3 @@ li a:hover{
     right: 10px;
     display: inline-block;
 }
-
-.genre{
-    background-color: transparent;
-    border: none;
-}
-
-.genre:hover{
-    cursor: pointer;
-    position: relative;
-    transition:0.3s;
-    z-index:6;
-    -webkit-box-shadow: -1px 9px 40px -12px #6c7175;
-    -moz-box-shadow: -1px 9px 40px -12px #6c7175;
-    box-shadow: -1px 9px 40px -12px #6c7175;
-}
-
-.genre:hover .card-img-top{
-    transform: scale(1.1);
-    transition: transform ease-in ;
-}
-
-.genre .card-title .fa-plus {
-    position: absolute;
-    right: 10px;
-    display: inline-block;
-}
-
-.genresmall{
-    font-size: 13px; 
-    position: absolute;
-    right: 10px;
-    display: inline-block;
-}
-
-
-
