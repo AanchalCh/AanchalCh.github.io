@@ -14,12 +14,16 @@ body,html{
     font-family: 'Josefin Sans';
 }
 
+.barheads{
+    font-family: 'Josefin Sans';
+}
+
 a{
     color:white;
 }
 
 table a{
-    color:#007bff;
+    color:#007bff; /*natural color of link*/
 }
 li a:hover{
     color:rgb(121, 119, 117);
@@ -71,6 +75,10 @@ li a:hover{
 
 .togivemargin{
     margin-top: 40px;
+}
+
+.togivelessemargin{
+    margin-top: 30px;
 }
 
 .correct{

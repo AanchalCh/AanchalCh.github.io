@@ -20,6 +20,10 @@ body,html{
     font-family: 'Josefin Sans';
 }
 
+.barheads{
+    font-family: 'Josefin Sans';
+}
+
 a{
     color:white;
 }
@@ -88,6 +92,11 @@ li a:hover{
     margin-top: 40px;
 }
 
+.togivelessemargin{
+    margin-top: 30px;
+}
+
+
 .correct{
     background-color: transparent;
     border: none;
@@ -127,8 +136,21 @@ li a:hover{
     height: auto;
     overflow: hidden;
     padding: 1.25rem;
-    /* display: block; */
     z-index: 4;
     transform: translate(0, 0);
 
+}
+
+.genre{
+    background-color: transparent;
+    border: none;
+}
+
+.genre:hover{
+    cursor: pointer;
+    position: relative;
+    transition:0.3s;
+    -webkit-box-shadow: -1px 9px 40px -12px #6c7175;
+    -moz-box-shadow: -1px 9px 40px -12px #6c7175;
+    box-shadow: -1px 9px 40px -12px #6c7175;
 }
