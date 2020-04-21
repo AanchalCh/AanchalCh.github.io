@@ -91,9 +91,16 @@ li a:hover{
     cursor: pointer;
     position: relative;
     transition:0.3s;
+    z-index:6;
     -webkit-box-shadow: -1px 9px 40px -12px #6c7175;
     -moz-box-shadow: -1px 9px 40px -12px #6c7175;
     box-shadow: -1px 9px 40px -12px #6c7175;
+}
+.cropimg{
+    width:325px;
+    height: 200px;
+    object-fit: cover;
+    transform: scale (1.2);
 }
 
 .correct .card-img-top {
@@ -108,7 +115,7 @@ li a:hover{
     height: 0px;
     overflow: hidden;
     padding: 0px;
-    transition: transform ease-in;
+    transition: transform ease-in ;
     transform: translate(0, -100%);
     -webkit-box-shadow: -1px 9px 40px -12px #6c7175;
     -moz-box-shadow: -1px 9px 40px -12px #6c7175;
@@ -119,8 +126,18 @@ li a:hover{
     height: auto;
     overflow: hidden;
     padding: 1.25rem;
-    /* display: block; */
     z-index: 4;
     transform: translate(0, 0);
 
+}
+
+.correct:hover .cropimg {
+    transform: scale(1.1);
+    transition: transform ease-in ;
+}
+
+.correct .card-title .fa-plus {
+    position: absolute;
+    right: 10px;
+    display: inline-block;
 }
