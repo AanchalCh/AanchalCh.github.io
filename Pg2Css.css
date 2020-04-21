@@ -16,6 +16,9 @@ body,html{
 
 .barheads{
     font-family: 'Josefin Sans';
+    border-left: white;
+    border-left-width: thick;
+    border-left-style: solid;
 }
 
 a{
@@ -74,10 +77,6 @@ li a:hover{
 }
 
 .togivemargin{
-    margin-top: 40px;
-}
-
-.togivelessemargin{
     margin-top: 30px;
 }
 
