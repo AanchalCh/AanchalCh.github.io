@@ -91,22 +91,44 @@ li a:hover{
 .correct{
     background-color: transparent;
     border: none;
+    position: relative;
+    display: inline-block;
 }
 
 .correct:hover{
     cursor: pointer;
     position: relative;
     transition:0.3s;
-    -webkit-box-shadow: -1px 9px 20px -12px #6c7175;
+    -webkit-box-shadow: -1px 9px 40px -12px #6c7175;
     -moz-box-shadow: -1px 9px 40px -12px #6c7175;
     box-shadow: -1px 9px 40px -12px #6c7175;
 }
 
-
-.hovereffect{
-   
+.correct .card-img-top {
+    z-index: 5;
+    position: relative;
 }
 
-.hovereffect:hover{
-   
+.correct .card-body {
+    background-color: #203345;
+    /* display: none; */
+    position: absolute;
+    height: 0px;
+    overflow: hidden;
+    padding: 0px;
+    transition: transform ease-in ;
+    transform: translate(0, -100%);
+    -webkit-box-shadow: -1px 9px 40px -12px #6c7175;
+    -moz-box-shadow: -1px 9px 40px -12px #6c7175;
+    box-shadow: -1px 9px 40px -12px #6c7175;
+}
+
+.correct:hover .card-body {
+    height: auto;
+    overflow: hidden;
+    padding: 1.25rem;
+    /* display: block; */
+    z-index: 4;
+    transform: translate(0, 0);
+
 }
