@@ -35,14 +35,13 @@ a{
     color:rgb(185, 179, 179);
 }
 
-
 a:hover{
     text-decoration: none;
     color:white;
 }
 
-.topnav{
-    
+.topnav li{
+    margin: auto;
 }
 
 .topnav li a:hover{
@@ -50,6 +49,10 @@ a:hover{
     border-top-color: white;
     border-top-style: solid;
     border-top-width: medium;
+}
+
+.form-group{
+    margin-bottom: 0;
 }
 
 .has-search .form-control {

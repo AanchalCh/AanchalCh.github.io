@@ -30,6 +30,17 @@ a:hover{
     color:white;
 }
 
+.topnav li{
+    margin: auto;
+}
+
+.topnav li a:hover{
+    color:white;
+    border-top-color: white;
+    border-top-style: solid;
+    border-top-width: medium;
+}
+
 th,td{
     padding:5px;
 }
@@ -42,11 +53,8 @@ table a:hover{
     color:#007bff; /*natural color of link*/
 }
 
-.topnav li a:hover{
-    color:white;
-    border-top-color: white;
-    border-top-style: solid;
-    border-top-width: medium;
+.form-group{
+    margin-bottom: 0;
 }
 
 .has-search .form-control {
@@ -71,14 +79,18 @@ table a:hover{
     margin:100px 50px 0 50px;
 }
 
+iframe{
+    border-radius: 4px;
+}
 
 .description{
     color:rgb(185, 179, 179);
 }
 
-.description button{
-    margin-left: 20px;
+.description button, .description a{
+    margin-left: 15px;
     color:rgb(185, 179, 179);
+    font-stretch: ultra-expanded;
 }
 
 .rating{
