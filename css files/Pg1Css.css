@@ -116,6 +116,9 @@ iframe{
     border: none;
     position: relative;
     display: inline-block;
+    -webkit-box-shadow: -1px 9px 40px -12px black;
+    -moz-box-shadow: -1px 9px 40px -12px black;
+    box-shadow: -1px 9px 40px -12px black;
 }
 
 .correct:hover{
@@ -167,7 +170,7 @@ iframe{
     transition: transform ease-in ;
 }
 
-.correct .card-title .fa-plus {
+.correct .card-title .fa-plus, .genre .card-title .fa-plus {
     position: absolute;
     right: 10px;
     display: inline-block;

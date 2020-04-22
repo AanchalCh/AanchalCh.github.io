@@ -30,9 +30,18 @@ a:hover{
     color:white;
 }
 
+th,td{
+    padding:5px;
+}
+
 table a{
     color:#007bff; /*natural color of link*/
 }
+
+table a:hover{
+    color:#007bff; /*natural color of link*/
+}
+
 .topnav li a:hover{
     color:white;
     border-top-color: white;
@@ -91,6 +100,9 @@ table a{
     border: none;
     position: relative;
     display: inline-block;
+    -webkit-box-shadow: -1px 9px 40px -12px black;
+    -moz-box-shadow: -1px 9px 40px -12px black;
+    box-shadow: -1px 9px 40px -12px black;
 }
 
 .correct:hover{
