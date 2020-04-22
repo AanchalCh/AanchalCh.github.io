@@ -35,6 +35,16 @@ a{
     color:rgb(185, 179, 179);
 }
 
+
+a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.topnav{
+    
+}
+
 .topnav li a:hover{
     color:white;
     border-top-color: white;
@@ -61,17 +71,15 @@ a{
 }
 
 .poster{
-    margin:90px 50px 0 50px;
+    margin:100px 94px 0 94px;
 }
 
-.main{
-    width: 900px;
-    height: 40px;
-    object-fit: cover;
+iframe{
+    border-radius: 4px;
 }
 
 .sideimage{
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .forspacing{
@@ -94,7 +102,7 @@ a{
 }
 
 .section1{
-    margin:50px 50px 0 50px;
+    margin:50px 70px 0 70px;
     font-weight: lighter;
     font-size: small;
 }
@@ -119,6 +127,7 @@ a{
     -moz-box-shadow: -1px 9px 40px -12px black;
     box-shadow: -1px 9px 40px -12px black;
 }
+
 .cropimg{
     width:325px;
     height: 200px;
@@ -126,7 +135,7 @@ a{
     transform: scale (1.2);
 }
 
-.correct .card-img-top {
+.correct .card-img-top{
     z-index: 5;
     position: relative;
 }
@@ -151,10 +160,9 @@ a{
     padding: 1.25rem;
     z-index: 4;
     transform: translate(0, 0);
-
 }
 
-.correct:hover .cropimg {
+.correct:hover .cropimg, .correct:hover .card-img-overlay {
     transform: scale(1.1);
     transition: transform ease-in ;
 }
@@ -177,11 +185,19 @@ a{
     bottom: 0;
     left:15px;
     font-weight: 900;
+    font-stretch: expanded;
 }
 
 .genre{
     background-color: transparent;
     border: none;
+}
+
+.genre .card-body {
+    background-color: #203345;
+    -webkit-box-shadow: -1px 9px 40px -12px black;
+    -moz-box-shadow: -1px 9px 40px -12px black;
+    box-shadow: -1px 9px 40px -12px black;
 }
 
 .genre:hover{
@@ -194,15 +210,14 @@ a{
     box-shadow: -1px 9px 40px -12px black;
 }
 
-.genre:hover .card-img-top{
-    transform: scale(1.1);
+.genre:hover .card-img {
+    transform: scale(1.050);
     transition: transform ease-in ;
 }
 
-.genre .card-title .fa-plus {
-    position: absolute;
-    right: 10px;
-    display: inline-block;
+.genre:hover .card-img-top{
+    transform: scale(1.1);
+    transition: transform ease-in ;
 }
 
 .genresmall{
@@ -212,5 +227,8 @@ a{
     display: inline-block;
 }
 
-
+.genresmall a {
+    color: #007bff;
+    text-decoration: none;
+}
 
