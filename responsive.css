@@ -1,20 +1,5 @@
-//min width k liye
-@media (min-width: 576px) { ... }
-
-
-@media (min-width: 768px) { ... }
-
-
-@media (min-width: 992px) { ... }
-
-
-@media (min-width: 1200px) { ... }
-
-
-
-// max width k liye 
-@media (max-width: 575.98px) { 
-    .navbar .nav-item{
+@media only screen and (max-width: 575.98px) { 
+        .navbar .nav-item{
         display: block;
         width:100%;
         padding: 10px 0px;
@@ -23,13 +8,46 @@
         .navbar .nav{
             background-color: #203345;
         }
+        .poster{
+            margin:5px;
+        }
+        .sideimage{
+            display: none;
+        }
+        .heading{
+            font-size: larger;
+        }
+        .description{
+            font-size: small;
+        }
+        .forspacing{
+            margin-left:8px;
+            margin-top: 10px;
+        }
+        .description button, .description a{
+            margin-left: 8px;
+            font-size: small;
+        }
+        .section1{
+            margin:15px 5px 0 5px;
+        }
+        .barheads{
+            font-size: large;
+        }
+        .togivemargin{
+            margin-top: 5px;
+        }
         .letter{
-            font-size: 15px;
+            font-size: 60px;
+        }
+        .page-footer .navbar ul{
+            flex-wrap: nowrap;
+            font-size: x-small;
         }
  }
 
 
-@media (max-width: 767.98px) {
+@media only screen and (max-width: 767.98px) {
 
     .navbar .nav-item{
     display: block;
@@ -40,13 +58,46 @@
     .navbar .nav{
         background-color: #203345;
     }
+    .poster{
+        margin:5px;
+    }
+    .sideimage{
+        display: none;
+    }
+    .holder{
+        height: vw;
+        width: vw;
+    }
+    .heading{
+        font-size: larger;
+    }
+    .description{
+        font-size: small;
+    }
+    .forspacing{
+        margin-left:12px;
+        margin-top: 10px;
+    }
+    .description button, .description a{
+        margin-left: 12px;
+        font-size: small;
+    }
+    .section1{
+        margin:15px 5px 0 5px;
+    }
+    .barheads{
+        font-size: large;
+    }
+    .togivemargin{
+        margin-top: 5px;
+    }
     .letter{
-        font-size: 25px;
+        font-size: 60px;
     }
  }
 
-/
-@media (max-width: 991.98px) { 
+
+@media only screen and (max-width: 991.98px) { 
     .navbar .nav-item{
         display: block;
         width:100%;
@@ -56,25 +107,9 @@
         .navbar .nav{
             background-color: #203345;
         }
-        .letter{
-            font-size: 35px;
-        }
  }
     
 
-@media (max-width: 1199.98px) { 
+@media only screen and (max-width: 1199.98px) { 
 
         }
-
-
-@media (max-width: 575.98px) { ... }
-
-
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
-
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
-
-
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
-
-@media (min-width: 1200px) { ... }
