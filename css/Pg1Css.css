@@ -91,13 +91,17 @@ iframe{
     border-radius: 5px;
 }
 
+.holder{
+    height:450px;
+}
+
 .forspacing{
     margin-left: 30px;
     margin-top: 10px;
 }
 
 .description{
-    color:rgb(185, 179, 179);
+    color:rgb(156, 153, 153);
 }
 
 .description button, .description a{
@@ -141,10 +145,9 @@ iframe{
 }
 
 .cropimg{
-    width:325px;
-    height: 200px;
+    width:100%;
+    height: 170px;
     object-fit: cover;
-    transform: scale (1.2);
 }
 
 .correct .card-img-top{
@@ -179,7 +182,9 @@ iframe{
     transform: scale(1.1);
     transition: transform ease-in ;
     border-radius: 5px;
-    margin-left: 8px;
+    -webkit-box-shadow: -1px 9px 40px -12px black;
+    -moz-box-shadow: -1px 9px 40px -12px black;
+    box-shadow: -1px 9px 40px -12px black;
 }
 
 .correct .card-title .fa-plus, .genre .card-title .fa-plus {
@@ -191,7 +196,6 @@ iframe{
 .correct .card-img-overlay, .correct .card-img , .genre .card-img , .genre .card-img-top{
     border-radius: 5px;
 }
-
 
 .letter{
     font-family: 'Poppins';
@@ -227,19 +231,22 @@ iframe{
     position: relative;
     transition:0.3s;
     z-index:6;
-    -webkit-box-shadow: -1px 9px 40px -12px black;
-    -moz-box-shadow: -1px 9px 40px -12px black;
-    box-shadow: -1px 9px 40px -12px black;
 }
 
 .genre:hover .card-img {
     transform: scale(1.050);
     transition: transform ease-in ;
+    -webkit-box-shadow: -1px 9px 40px -12px black;
+    -moz-box-shadow: -1px 9px 40px -12px black;
+    box-shadow: -1px 9px 40px -12px black;
 }
 
 .genre:hover .card-img-top{
     transform: scale(1.1);
     transition: transform ease-in ;
+    -webkit-box-shadow: -1px 9px 40px -12px black;
+    -moz-box-shadow: -1px 9px 40px -12px black;
+    box-shadow: -1px 9px 40px -12px black;
 }
 
 .card-movie-large .card-body .card-text{

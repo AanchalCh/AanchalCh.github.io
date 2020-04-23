@@ -1,142 +1,202 @@
-@media only screen and (max-width: 575.98px) 
-    { 
-        .navbar .nav-item{
-        display: block;
-        width:100%;
-        padding: 10px 0px;
-        text-align: center;
-        }
-        .navbar .nav{
-            background-color: #203345;
-        }
-        .poster{
-            margin:5px;
-        }
-        .poster img{
-            display: none;
-        }
-        .holder{
-            margin-top: 60px;
-        }
-        .heading{
-            font-size: larger;
-        }
-        .description{
-            font-size: small;
-        }
-        .forspacing{
-            margin-left:8px;
-            margin-top: 10px;
-        }
-        .description button, .description a{
-            margin-left: 8px;
-            font-size: small;
-        }
-        .section1{
-            margin:15px 5px 0 5px;
-        }
-        .barheads{
-            font-size: large;
-        }
-        .togivemargin{
-            margin-top: 5px;
-        }
-        .letter{
-            font-size: 60px;
+        @media only screen and (max-width: 575.98px) 
+            { 
+                .navbar .nav-item{
+                display: block;
+                width:100%;
+                padding: 10px 0px;
+                text-align: center;
+                }
+                .navbar .nav{
+                    background-color: #203345;
+                }
+                .poster{
+                    margin:8px;
+                }
+                .poster img{
+                    display: none;
+                }
+                .holder{
+                    margin-top: 60px;
+                    height: max-content;
+                }
+                .heading{
+                    font-size: larger;
+                }
+                .description{
+                    font-size: small;
+                }
+                .forspacing{
+                    margin-left:8px;
+                    margin-top: 10px;
+                }
+                .description button, .description a{
+                    margin-left: 8px;
+                    font-size: small;
+                }
+                .section1{
+                    margin:15px 5px 0 5px;
+                }
+                .barheads{
+                    font-size: large;
+                }
+                .togivemargin{
+                    margin-top: 5px;
+                }
+                .cropimg{
+                    height: 80px;
+                    width:auto;
+                    object-fit: cover;
+                }
+                .letter{
+                    font-size: 60px;
+                }
+
+                .page-footer nav {
+                    padding: 0;
+                    font-size: x-small;
+                }
+                .page-footer .navbar ul{
+                    flex-wrap: nowrap;
+                }
         }
 
-        .page-footer nav {
-            padding: 0;
-            font-size: x-small;
+
+        @media only screen and (max-width: 767.98px) {
+
+            .navbar .nav-item{
+            display: block;
+            width:100%;
+            padding: 10px 0px;
+            text-align: center;
+            }
+            .navbar .nav{
+                background-color: #203345;
+            }
+
+            .navbar img{
+                width: 80px;
+                height: auto;
+            }
+            .poster{
+                margin:5px;
+            }
+            .poster img{
+                display: none;
+            }
+            .holder{
+                margin-top: 60px;
+            }
+            .heading{
+                font-size: larger;
+            }
+            .description{
+                font-size: small;
+            }
+            .forspacing{
+                margin-left:8px;
+                margin-top: 10px;
+            }
+            .description button, .description a{
+                margin-left: 12px;
+                font-size: small;
+            }
+            .section1{
+                margin:25px 10px 0 10px;
+            }
+            .barheads{
+                font-size: larger;
+            }
+            .togivemargin{
+                margin-top: 10px;
+            }
+            .letter{
+                font-size: 30px;
+            }
+            .page-footer nav {
+                font-size: 12px;
+            }
+            .page-footer .navbar ul{
+                flex-wrap: nowrap;
+            }
+            .page-footer .navbar ul li, .page-footer p{
+                line-height: 1;
+            }
+            footer p img{
+                width: 70px;
+                height: auto;
+            }
         }
-        .page-footer .navbar ul{
-            flex-wrap: nowrap;
+
+
+        @media only screen and (max-width: 991.98px) { 
+            .navbar img{
+                width: 90px;
+                height: auto;
+            }
+            .poster{
+                margin:25px;
+            }
+            .poster img{
+                display: none;
+            }
+            .holder{
+                margin-top: 60px;
+            }
+            .heading{
+                font-size: 35px;
+            }
+            .description{
+                font-size:16px;
+            }
+            .forspacing{
+                margin-left:8px;
+                margin-top: 10px;
+            }
+            .description button, .description a{
+                margin-left: 12px;
+                font-size: small;
+            }
+            .section1{
+                margin:22px 13px 0 13px;
+            }
+            .barheads{
+                font-size: 25px;
+            }
+            .cropimg{
+                width:100%;
+                height: 130px;
+                object-fit: cover;
+            }
+            .togivemargin{
+                margin-top: 22px;
+            }
+            .letter{
+                font-size: 40px;
+            }
+            .correct .lang{
+                font-size: 12px;
+                bottom: -8px;
+                left:5px;
+            }
+            .card-movie-large .heading{
+                font-size: 28px;
+            }
+            .correct h5 , .genre h5{
+                font-size:18px ;
+            }
+            .page-footer nav {
+                font-size: 14px;
+            }
+            .page-footer .navbar ul li, .page-footer p{
+                line-height: 1;
+            }
+            footer p img{
+                width: 80px;
+                height: auto;
+            }
         }
- }
+            
 
+        @media only screen and (max-width: 1199.98px) { 
 
-@media only screen and (max-width: 767.98px) {
-
-    .navbar .nav-item{
-    display: block;
-    width:100%;
-    padding: 10px 0px;
-    text-align: center;
-    }
-    .navbar .nav{
-        background-color: #203345;
-    }
-
-    .navbar img{
-        width: 80px;
-        height: auto;
-    }
-    .poster{
-        margin:5px;
-    }
-    .poster img{
-        display: none;
-    }
-    .holder{
-        margin-top: 60px;
-    }
-    .heading{
-        font-size: larger;
-    }
-    .description{
-        font-size: small;
-    }
-    .forspacing{
-        margin-left:8px;
-        margin-top: 10px;
-    }
-    .description button, .description a{
-        margin-left: 12px;
-        font-size: small;
-    }
-    .section1{
-        margin:25px 10px 0 10px;
-    }
-    .barheads{
-        font-size: larger;
-    }
-    .togivemargin{
-        margin-top: 10px;
-    }
-    .letter{
-        font-size: 80px;
-    }
-
-    .page-footer nav {
-        
-        font-size: 12px;
-    }
-    .page-footer .navbar ul{
-        flex-wrap: nowrap;
-    }
-    .page-footer .navbar ul li, .page-footer p{
-        line-height: 1;
-    }
-    footer p img{
-        width: 70px;
-        height: auto;
-    }
-}
-
-
-@media only screen and (max-width: 991.98px) { 
-    .navbar .nav-item{
-        display: block;
-        width:100%;
-        padding: 10px 0px;
-        text-align: center;
-        }
-        .navbar .nav{
-            background-color: #203345;
-        }
- }
-    
-
-@media only screen and (max-width: 1199.98px) { 
-
-        }
+                }
