@@ -8,6 +8,10 @@ body,html{
     font-family: 'Poppins';
 }
 
+.navbar img{
+    width:130px;
+    height:auto;
+}
 .heading{
     font-weight: bolder;
     font-stretch: ultra-expanded;
@@ -79,6 +83,8 @@ a:hover{
 
 iframe{
     border-radius: 4px;
+    width:vw;
+    height:auto;
 }
 
 .sideimage{
@@ -172,6 +178,8 @@ iframe{
 .correct:hover .cropimg, .correct:hover .card-img-overlay {
     transform: scale(1.1);
     transition: transform ease-in ;
+    border-radius: 5px;
+    margin-left: 8px;
 }
 
 .correct .card-title .fa-plus, .genre .card-title .fa-plus {
@@ -207,6 +215,8 @@ iframe{
 
 .genre .card-body {
     background-color: #203345;
+    border-radius: 5px;
+    margin-left: 8px;
     -webkit-box-shadow: -1px 9px 40px -12px black;
     -moz-box-shadow: -1px 9px 40px -12px black;
     box-shadow: -1px 9px 40px -12px black;
@@ -246,5 +256,10 @@ iframe{
 .genresmall a {
     color: #007bff;
     text-decoration: none;
+}
+
+footer p img{
+    width:90px ;
+    height: 25px;
 }
 

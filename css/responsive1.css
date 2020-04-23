@@ -12,13 +12,11 @@
         .poster{
             margin:5px;
         }
-        .sideimage{
+        .poster img{
             display: none;
         }
-        iframe{
-            margin: auto;
-            height:250px;
-            width: 380px;
+        .holder{
+            margin-top: 60px;
         }
         .heading{
             font-size: larger;
@@ -68,15 +66,19 @@
     .navbar .nav{
         background-color: #203345;
     }
-    .poster{
-        margin:10px;
+
+    .navbar img{
+        width: 80px;
+        height: auto;
     }
-    .sideimage{
+    .poster{
+        margin:5px;
+    }
+    .poster img{
         display: none;
     }
     .holder{
-        height: vw;
-        width: vw;
+        margin-top: 60px;
     }
     .heading{
         font-size: larger;
@@ -85,26 +87,41 @@
         font-size: small;
     }
     .forspacing{
-        margin-left:15px;
-        margin-top: 13px;
+        margin-left:8px;
+        margin-top: 10px;
     }
     .description button, .description a{
-        margin-left: 15px;
+        margin-left: 12px;
         font-size: small;
     }
     .section1{
-        margin:18px 10px 0 10px;
+        margin:25px 10px 0 10px;
     }
     .barheads{
-        font-size: large;
+        font-size: larger;
     }
     .togivemargin{
-        margin-top: 8px;
+        margin-top: 10px;
     }
     .letter{
-        font-size: 75px;
+        font-size: 80px;
     }
- }
+
+    .page-footer nav {
+        
+        font-size: 12px;
+    }
+    .page-footer .navbar ul{
+        flex-wrap: nowrap;
+    }
+    .page-footer .navbar ul li, .page-footer p{
+        line-height: 1;
+    }
+    footer p img{
+        width: 70px;
+        height: auto;
+    }
+}
 
 
 @media only screen and (max-width: 991.98px) { 

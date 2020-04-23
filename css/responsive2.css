@@ -16,9 +16,9 @@
             display: none;
         }
         iframe{
+            width: 90vw;
+            height: auto;
             margin: auto;
-            height:250px;
-            width: 380px;
         }
         .heading{
             font-size: larger;
