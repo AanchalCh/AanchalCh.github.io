@@ -204,6 +204,15 @@ iframe{
     color:black;
 }
 
+.correct .card-img-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.letter p{
+    margin: 0;
+}
+
 .lang{
     position: absolute;
     bottom: 0;
