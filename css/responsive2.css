@@ -1,0 +1,125 @@
+@media only screen and (max-width: 575.98px) 
+    { 
+        .navbar .nav-item{
+        display: block;
+        width:100%;
+        padding: 10px 0px;
+        text-align: center;
+        }
+        .navbar .nav{
+            background-color: #203345;
+        }
+        .poster{
+            margin:5px;
+        }
+        .sideimage{
+            display: none;
+        }
+        iframe{
+            margin: auto;
+            height:250px;
+            width: 380px;
+        }
+        .heading{
+            font-size: larger;
+        }
+        .description{
+            font-size: small;
+        }
+        .forspacing{
+            margin-left:8px;
+            margin-top: 10px;
+        }
+        .description button, .description a{
+            margin-left: 8px;
+            font-size: small;
+        }
+        .section1{
+            margin:15px 5px 0 5px;
+        }
+        .barheads{
+            font-size: large;
+        }
+        .togivemargin{
+            margin-top: 5px;
+        }
+        .letter{
+            font-size: 60px;
+        }
+
+        .page-footer nav {
+            padding: 0;
+            font-size: x-small;
+        }
+        .page-footer .navbar ul{
+            flex-wrap: nowrap;
+        }
+ }
+
+
+@media only screen and (max-width: 767.98px) {
+
+    .navbar .nav-item{
+    display: block;
+    width:100%;
+    padding: 10px 0px;
+    text-align: center;
+    }
+    .navbar .nav{
+        background-color: #203345;
+    }
+    .poster{
+        margin:10px;
+    }
+    .sideimage{
+        display: none;
+    }
+    .holder{
+        height: vw;
+        width: vw;
+    }
+    .heading{
+        font-size: larger;
+    }
+    .description{
+        font-size: small;
+    }
+    .forspacing{
+        margin-left:15px;
+        margin-top: 13px;
+    }
+    .description button, .description a{
+        margin-left: 15px;
+        font-size: small;
+    }
+    .section1{
+        margin:18px 10px 0 10px;
+    }
+    .barheads{
+        font-size: large;
+    }
+    .togivemargin{
+        margin-top: 8px;
+    }
+    .letter{
+        font-size: 75px;
+    }
+ }
+
+
+@media only screen and (max-width: 991.98px) { 
+    .navbar .nav-item{
+        display: block;
+        width:100%;
+        padding: 10px 0px;
+        text-align: center;
+        }
+        .navbar .nav{
+            background-color: #203345;
+        }
+ }
+    
+
+@media only screen and (max-width: 1199.98px) { 
+
+        }

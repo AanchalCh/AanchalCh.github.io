@@ -144,6 +144,7 @@ iframe{
 .correct .card-img-top{
     z-index: 5;
     position: relative;
+    border-radius: 5px;
 }
 
 .correct .card-body {
@@ -178,6 +179,11 @@ iframe{
     right: 10px;
     display: inline-block;
 }
+
+.correct .card-img-overlay, .correct .card-img , .genre .card-img , .genre .card-img-top{
+    border-radius: 5px;
+}
+
 
 .letter{
     font-family: 'Poppins';
@@ -224,6 +230,10 @@ iframe{
 .genre:hover .card-img-top{
     transform: scale(1.1);
     transition: transform ease-in ;
+}
+
+.card-movie-large .card-body .card-text{
+    margin-left: 55px;
 }
 
 .genresmall{
