@@ -180,12 +180,93 @@
     .poster{
         margin:8px;
     }
+    .heading{
+        font-size: 25px;
+    }
+    .forspacing{
+        margin-left:8px;
+        margin-top: 10px;
+    }
+    .description,table{
+        font-size: 12px;
+    }
+    .description button, .description a{
+        margin-left: 8px;
+        font-size: 12px;
+    }
+    .section1{
+        margin:15px 8px 0 8px;
+    }
+    .barheads{
+        font-size: 16px;
+    }
+    .togivemargin{
+        margin-top: 15px;
+    }
+    .correct{
+        flex-basis:48%;
+    }
+    .to-space-card-evenly{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+    .cropimg{
+        width: 170px;
+        height:73x;
+        object-fit: cover;
+    }
+    .page-footer h5{
+        font-size: 15px;
+    }
+    .page-footer nav {
+        font-size: 10px;
+    }
+    .page-footer .navbar ul{
+        flex-wrap: nowrap;
+    }
+    .page-footer .navbar ul li, .page-footer p{
+        line-height: 1;
+    }
+    footer p img{
+        width: 50px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 375px) 
+{ 
+    .navbar .nav-item{
+    display: block;
+    width:50%;
+    padding: 10px 0;
+    text-align: center;
+    }
+    .navbar .nav{
+        background-color: #203345;
+    }
+    .topnav{
+        flex-direction: column;
+    }
+    .navbar img{
+        width: 70px;
+        height: auto;
+    }
+    .main {
+        justify-content: space-between;
+    }
+    .left {
+        order:2;
+    }
+    .right {
+        order:1;
+    }
+    .poster{
+        margin:8px;
+    }
     .holder{
         margin-top: 60px;
         height: max-content;
-    }
-    .heading{
-        font-size: larger;
     }
     .heading{
         font-size: 25px;
@@ -201,24 +282,20 @@
         margin:15px 8px 0 8px;
     }
     .barheads{
-        font-size: large;
+        font-size:16px;
     }
     .togivemargin{
-        margin-top: 5px;
+        margin-top: 15px;
     }
     .correct{
-        flex-basis:50%;
+        flex-basis:48%;
     }
     .to-space-card-evenly{
         display: flex;
         flex-wrap:wrap;
         justify-content: space-between;
     }
-    .cropimg{
-        width: 170px;
-        height:73x;
-        object-fit: cover;
-    }
+
     .page-footer h5{
         font-size: 15px;
     }

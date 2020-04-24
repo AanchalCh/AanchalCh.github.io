@@ -159,6 +159,8 @@ iframe{
     z-index: 5;
     position: relative;
     border-radius: 5px;
+    height: 100%;
+    width: 100%;
 }
 
 .correct .card-body {

@@ -154,6 +154,8 @@ iframe{
     z-index: 5;
     position: relative;
     border-radius: 5px;
+    height: 100%;
+    width:100%;
 }
 
 .correct .card-body {
@@ -234,7 +236,10 @@ iframe{
     -moz-box-shadow: -1px 9px 40px -12px black;
     box-shadow: -1px 9px 40px -12px black;
 }
-
+.genre .card-img-top{
+    width: 100%;
+    height: auto;
+}
 .genre:hover{
     cursor: pointer;
     position: relative;
