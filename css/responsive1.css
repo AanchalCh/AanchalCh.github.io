@@ -11,7 +11,7 @@
             }            
             .cropimg{
                 width:100%;
-                height: 125px;
+                height:auto;
                 object-fit: cover;
             }
             .letter{
@@ -75,7 +75,7 @@
             }
             .cropimg{
                 width:100%;
-                height: 130px;
+                height: auto;
                 object-fit: cover;
             }
             .genre .card-title{
