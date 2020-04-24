@@ -73,9 +73,14 @@
             .correct:hover .card-body {
                 display: none;
             }
-            .cropimg{
-                width:100%;
-                height: auto;
+            .correct .card-img-top{
+                height:85px;
+                width: auto;
+                object-fit: cover;
+            }
+            .genre .card-img-top{
+               height: 85px;
+               width: auto;
                 object-fit: cover;
             }
             .genre .card-title{
@@ -146,11 +151,7 @@
             .correct:hover .card-body{
                 display: none;
             }
-            .cropimg ,.genre .card-img-top{
-                height: 160px;
-                width: auto;
-                object-fit: cover;
-            }
+        
             .genre .card-title{
                 font-size:12px;
             }

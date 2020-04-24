@@ -165,7 +165,7 @@ iframe{
     height: 0px;
     overflow: hidden;
     padding: 0px;
-    transition: transform ease-in ;
+    transition: transform ease-in;
     transform: translate(0, -100%);
     -webkit-box-shadow: -1px 9px 40px -12px black;
     -moz-box-shadow: -1px 9px 40px -12px black;
@@ -182,7 +182,7 @@ iframe{
 
 .correct:hover .cropimg, .correct:hover .card-img-overlay {
     transform: scale(1.1);
-    transition: transform ease-in ;
+    transition: transform ease-in;
     border-radius: 5px;
     -webkit-box-shadow: -1px 9px 40px -12px black;
     -moz-box-shadow: -1px 9px 40px -12px black;
@@ -237,8 +237,9 @@ iframe{
     box-shadow: -1px 9px 40px -12px black;
 }
 .genre .card-img-top{
-    width: 100%;
-    height: auto;
+    width:100%;
+    height: 170px;
+    object-fit: cover;
 }
 .genre:hover{
     cursor: pointer;
