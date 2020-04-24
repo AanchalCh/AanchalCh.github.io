@@ -1,87 +1,207 @@
-@media only screen and (max-width: 575.98px) 
-    { 
-        .navbar .nav-item{
-            display: block;
-            width:100%;
-            padding: 10px 0px;
-            text-align: center;
-            }
-            .navbar .nav{
-                background-color: #203345;
-            }
-            .poster{
-                margin:8px;
-            }
-            .poster img{
-                display: none;
-            }
-            .holder{
-                margin-top: 60px;
-                height: max-content;
-            }
-            .heading{
-                font-size: larger;
-            }
-            .description{
-                font-size: small;
-            }
-            .forspacing{
-                margin-left:8px;
-                margin-top: 10px;
-            }
-            .description button, .description a{
-                margin-left: 8px;
-                font-size: small;
-            }
-            .section1{
-                margin:15px 5px 0 5px;
-            }
-            .barheads{
-                font-size: large;
-            }
-            .togivemargin{
-                margin-top: 5px;
-            }
-            .cropimg{
-                height: 80px;
-                width:auto;
-                object-fit: cover;
-            }
-            .letter{
-                font-size: 60px;
-            }
-    
-            .page-footer nav {
-                padding: 0;
-                font-size: x-small;
-            }
-            .page-footer .navbar ul{
-                flex-wrap: nowrap;
-            }
-        }
+@media only screen and (max-width: 1199.98px) { 
+    .navbar img{
+        width: 110px;  
+        height: auto;
+    }
+     .section1{
+        margin:22px 13px 0 13px;
+    }
+    .poster{
+        margin:100px 25px 0 25px;
+    }            
+    .cropimg{
+        width:100%;
+        height: 125px;
+        object-fit: cover;
+    }
+    .letter{
+        font-size:50px;
+    }
+    .correct .card-title , .genre .card-title{
+        font-size:18px;
+    }
+    .card-movie-large .card-title{
+        font-size: 30px;
+    }
+    .correct .card-title .lang{
+        font-size: 15px;
+        bottom: -5px;
+        left:5px;
+    }
+    .page-footer .navbar ul li, .page-footer p{
+        line-height: 1;
+    }
+    footer p img{
+        width: 90px;
+        height: auto;
+    }
  }
 
+/*completed above*/
+ 
+@media only screen and (max-width: 991.98px) { 
+    .navbar img{
+        width: 90px;
+        height: auto;
+    }
 
+    .heading{
+        font-size: 35px;
+    }
+    .description{
+        font-size:16px;
+    }
+    .forspacing{
+        margin-left:8px;
+        margin-top: 10px;
+    }
+    .description button, .description a{
+        margin-left: 12px;
+        font-size: small;
+    }
+    .section1{
+        margin:22px 25px 0 25px;
+    }
+    .barheads{
+        font-size: 25px;
+    }
+    .togivemargin{
+        margin-top: 22px;
+    }
+    .correct:hover .card-body {
+        display: none;
+    }
+    .cropimg{
+        width:100%;
+        height: 130px;
+        object-fit: cover;
+    }
+    .genre .card-title{
+        font-size:15px;
+    }
+    .card-movie-large .heading{
+        font-size: 28px;
+    }
+    .letter{
+        font-size: 45px;
+    }
+    .correct .lang{
+        font-size: 12px;
+        bottom: -5px;
+        left:5px;
+    }
+    .genre .card-body{
+        padding: 7px;
+    }
+    .genresmall{
+        display: none;
+    }
+    .page-footer nav {
+        font-size: 14px;
+    }
+    .page-footer .navbar ul li, .page-footer p{
+        line-height: 1;
+    }
+    footer p img{
+        width: 80px;
+        height: auto;
+    }
+}
+
+/*completed above*/
+    
 @media only screen and (max-width: 767.98px) {
+    .navbar img{
+        width: 80px;
+        height: auto;
+    }
 
+    .heading{
+        font-size: 30px;
+    }
+    .description{
+        font-size: 12px;
+    }
+    .forspacing{
+        margin-left:8px;
+        margin-top: 10px;
+    }
+    .description button, .description a{
+        margin-left: 12px;
+        font-size: small;
+    }
+    .section1{
+        margin:18px 15px 0 15px;
+    }
+    .barheads{
+        font-size: 18px;
+    }
+    .togivemargin{
+        margin-top: 18px;
+    }
+    .correct:hover .card-body{
+        display: none;
+    }
+    .cropimg{
+        width:100%;
+        height: 90px;
+        object-fit: cover;
+    }
+    .genre .card-title{
+        font-size:12px;
+    }
+    .card-movie-large .heading{
+        font-size: 24px;
+    }
+    .letter{
+        font-size: 30px;
+    }
+    .correct .lang{
+        font-size: 10px;
+        bottom: -5px;
+        left:5px;
+    }
+    .genre .card-body{
+        padding: 7px;
+    }
+    .genresmall{
+        display: none;
+    }
+    .page-footer nav {
+        font-size: 12px;
+    }
+    .page-footer .navbar ul{
+        flex-wrap: nowrap;
+    }
+    .page-footer .navbar ul li, .page-footer p{
+        line-height: 1;
+    }
+    footer p img{
+        width: 70px;
+        height: auto;
+    }
+}
+
+/*above completed*/
+
+@media only screen and (max-width: 575.98px) 
+{ 
     .navbar .nav-item{
     display: block;
     width:100%;
-    padding: 10px 0px;
+    padding: 10px 0;
     text-align: center;
     }
     .navbar .nav{
         background-color: #203345;
     }
     .poster{
-        margin:10px;
+        margin:8px;
     }
-    .sideimage{
-        display: none;
-    }
+
     .holder{
-        height: vw;
-        width: vw;
+        margin-top: 60px;
+        height: max-content;
     }
     .heading{
         font-size: larger;
@@ -90,33 +210,38 @@
         font-size: small;
     }
     .forspacing{
-        margin-left:15px;
-        margin-top: 13px;
+        margin-left:8px;
+        margin-top: 10px;
     }
     .description button, .description a{
-        margin-left: 15px;
+        margin-left: 8px;
         font-size: small;
     }
     .section1{
-        margin:18px 10px 0 10px;
+        margin:15px 5px 0 5px;
     }
     .barheads{
         font-size: large;
     }
     .togivemargin{
-        margin-top: 8px;
+        margin-top: 5px;
+    }
+    .cropimg{
+        height: 80px;
+        width:auto;
+        object-fit: cover;
     }
     .letter{
-        font-size: 75px;
+        font-size: 60px;
     }
- }
+
+    .page-footer nav {
+        padding: 0;
+        font-size: x-small;
+    }
+    .page-footer .navbar ul{
+        flex-wrap: nowrap;
+    }
+}
 
 
-@media only screen and (max-width: 991.98px) { 
-    
- }
-    
-
-@media only screen and (max-width: 1199.98px) { 
-
-        }

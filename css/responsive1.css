@@ -59,7 +59,7 @@
             }
             .description button, .description a{
                 margin-left: 12px;
-                font-size: small;
+                font-size: 16px;
             }
             .section1{
                 margin:22px 25px 0 25px;
@@ -124,7 +124,7 @@
                 font-size: 30px;
             }
             .description{
-                font-size: 12px;
+                font-size: 14px;
             }
             .forspacing{
                 margin-left:8px;
@@ -132,7 +132,7 @@
             }
             .description button, .description a{
                 margin-left: 12px;
-                font-size: small;
+                font-size: 14px;
             }
             .section1{
                 margin:18px 15px 0 15px;
@@ -192,12 +192,19 @@
         { 
             .navbar .nav-item{
             display: block;
-            width:100%;
-            padding: 10px 0px;
+            width:50%;
+            padding: 10px 0;
             text-align: center;
             }
             .navbar .nav{
                 background-color: #203345;
+            }
+            .topnav{
+                flex-direction: column;
+            }
+            .navbar img{
+                width: 70px;
+                height: auto;
             }
             .poster{
                 margin:8px;
@@ -210,10 +217,10 @@
                 height: max-content;
             }
             .heading{
-                font-size: larger;
+                font-size: 25px;
             }
             .description{
-                font-size: small;
+                font-size: 12px;
             }
             .forspacing{
                 margin-left:8px;
@@ -221,10 +228,10 @@
             }
             .description button, .description a{
                 margin-left: 8px;
-                font-size: small;
+                font-size: 12px;
             }
             .section1{
-                margin:15px 5px 0 5px;
+                margin:15px 8px 0 8px;
             }
             .barheads{
                 font-size: large;
@@ -232,21 +239,55 @@
             .togivemargin{
                 margin-top: 5px;
             }
+            .correct,.genre .card-imp-top{
+                flex-basis:50%;
+            }
+            .to-space-card-evenly{
+                display: flex;
+                flex-wrap:wrap;
+                justify-content: space-between;
+            }
             .cropimg{
-                height: 80px;
-                width:auto;
+                width: 170px;
+                height:73x;
                 object-fit: cover;
             }
-            .letter{
-                font-size: 60px;
+            .hide-in-mob{
+                display: none;
             }
-
+            .genre .card-title{
+                font-size:14px;
+            }
+            .card-movie-large .heading{
+                font-size: 18px;
+            }
+            .card-movie-large p{
+                display: none;
+            }
+            .genre .card-body{
+                padding: 6px;
+            }
+            .card-movie-large .card-body{
+                width: 100%;
+            }
+            .genresmall{
+                display: none;
+            }
+            .page-footer h5{
+                font-size: 15px;
+            }
             .page-footer nav {
-                padding: 0;
-                font-size: x-small;
+                font-size: 10px;
             }
             .page-footer .navbar ul{
                 flex-wrap: nowrap;
+            }
+            .page-footer .navbar ul li, .page-footer p{
+                line-height: 1;
+            }
+            footer p img{
+                width: 50px;
+                height: auto;
             }
     }
 
