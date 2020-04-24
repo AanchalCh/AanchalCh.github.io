@@ -234,12 +234,12 @@
                 margin:15px 8px 0 8px;
             }
             .barheads{
-                font-size: large;
+                font-size:16px;
             }
             .togivemargin{
                 margin-top: 5px;
             }
-            .correct,.genre .card-imp-top{
+            .correct ,.formobile .card-imp-top{
                 flex-basis:50%;
             }
             .to-space-card-evenly{
@@ -248,8 +248,8 @@
                 justify-content: space-between;
             }
             .cropimg{
-                width: 170px;
-                height:73x;
+                width: 190px;
+                height:auto;
                 object-fit: cover;
             }
             .hide-in-mob{
@@ -290,5 +290,109 @@
                 height: auto;
             }
     }
+    /*completed above*/
+
+    @media only screen and (max-width: 575.98px) 
+    { 
+        .navbar .nav-item{
+        display: block;
+        width:50%;
+        padding: 10px 0;
+        text-align: center;
+        }
+        .navbar .nav{
+            background-color: #203345;
+        }
+        .topnav{
+            flex-direction: column;
+        }
+        .navbar img{
+            width: 60px;
+            height: auto;
+        }
+        .poster{
+            margin:8px;
+        }
+        .poster img{
+            display: none;
+        }
+        .holder{
+            margin-top: 50px;
+            height: max-content;
+        }
+        .heading{
+            font-size: 22px;
+        }
+        .description{
+            font-size: 10px;
+        }
+        .forspacing{
+            margin-left:6px;
+            margin-top: 8px;
+        }
+        .description button, .description a{
+            margin-left: 6px;
+            font-size: 10px;
+        }
+        .section1{
+            margin:15px 6px 0 8px;
+        }
+        .barheads{
+            font-size: 15px;
+        }
+        .togivemargin{
+            margin-top: 5px;
+        }
+        .correct,.genre .card-imp-top{
+            flex-basis:50%;
+        }
+        .to-space-card-evenly{
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: space-between;
+        }
+        .cropimg{
+            width: 130px;
+            height:auto;
+            object-fit: cover;
+        }
+        .hide-in-mob{
+            display: none;
+        }
+        .genre .card-title{
+            font-size:12px;
+        }
+        .card-movie-large .heading{
+            font-size: 16px;
+        }
+        .card-movie-large p{
+            display: none;
+        }
+        .genre .card-body{
+            padding: 5px;
+        }
+        .card-movie-large .card-body{
+            width: 100%;
+        }
+        .genresmall{
+            display: none;
+        }
+        .page-footer h5{
+            font-size: 12px;
+        }
+        .page-footer nav {
+            font-size: 10px;
+        }
+        .page-footer .navbar ul{
+            flex-wrap: nowrap;
+        }
+        .page-footer .navbar ul li, .page-footer p{
+            line-height: 1;
+        }
+        footer p img{
+            width: 50px;
+            height: auto;
+        }
+}
 
 
