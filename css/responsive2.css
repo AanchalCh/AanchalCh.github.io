@@ -67,10 +67,9 @@
     .correct:hover .card-body {
         display: none;
     }
-    .correct .card-img-top{
-        height:85px;
-        width: auto;
-        object-fit: cover;
+    .cropimg{
+        width: 175px;
+        height:auto;
     }
     .page-footer nav {
         font-size: 14px;
