@@ -146,9 +146,9 @@
             .correct:hover .card-body{
                 display: none;
             }
-            .cropimg{
-                width:100%;
-                height: auto;
+            .cropimg ,.genre .card-img-top{
+                height: 160px;
+                width: auto;
                 object-fit: cover;
             }
             .genre .card-title{
@@ -242,7 +242,11 @@
             .correct:hover .card-body{
                 display: none;
             }
-
+            .cropimg ,.genre .card-img-top{
+                height: 120px;
+                width: auto;
+                object-fit: cover;
+            }
             .correct ,.formobile{
                 flex-basis:48%;
             }
@@ -342,6 +346,11 @@
             .togivemargin{
                 margin-top: 15px;
             }
+            .cropimg , .genre .card-img-top{
+                height: 84px;
+                width: auto;
+                object-fit: cover;
+            }
             .correct:hover .card-body{
                 display: none;
             }
@@ -389,7 +398,7 @@
             footer p img{
                 width: 50px;
                 height: auto;
-
+            }
 }
 
 

@@ -211,9 +211,9 @@
         flex-wrap:wrap;
         justify-content: space-between;
     }
-    .cropimg{
-        width: 170px;
-        height:73x;
+    .cropimg {
+        height: 78px;
+        width: auto;
         object-fit: cover;
     }
     .page-footer h5{
@@ -286,6 +286,14 @@
     }
     .togivemargin{
         margin-top: 15px;
+    }
+    .cropimg {
+        height: 84px;
+        width: auto;
+        object-fit: cover;
+    }
+    .correct:hover .card-body{
+        display: none;
     }
     .correct{
         flex-basis:48%;
